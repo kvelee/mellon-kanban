@@ -1,0 +1,123 @@
+body, html {
+	height: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    border-radius: 12px;
+
+    font-family: "Fascinate", system-ui;
+    font-size: 24px;
+
+}
+
+header:hover {
+    outline: skyblue 3px solid 
+}
+
+.column-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 100%;
+    margin-top: 20px;
+}
+
+.list-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Fascinate", system-ui;
+
+    border-bottom: 4px black solid;
+}
+
+.list {
+    width:100%;
+
+    border-radius: 8px;
+    margin: 10px;
+
+}
+
+.list:hover {
+    border-right: solid darkslategray 6px;
+    border-bottom: solid darkslategray 6px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 20px 40px;
+    background-color: #eeee;
+    color: black;
+
+    padding: 20px 24px;
+
+    border-radius: 24px;
+    border: transparent;
+
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    outline: solid 2px skyblue;
+}
+
+.item-list{
+    font-family: Ubuntu;
+    height: 80%;
+
+    overflow: auto;
+}
+
+.arrow {
+    border-radius: 100px;
+    transition: all 0.3s ease
+}
+.arrow:hover {
+    cursor: pointer;
+    background-color: #4d7bf8ee;
+
+    border-radius: 100px;
+   
+}
+.add-button{
+    display: flex;
+    justify-content: center;
+}
+
+.add {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.add:hover {
+    outline: solid white 2px
+}

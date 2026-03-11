@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title> Kanban Board </title>
+    <meta charset="UTF-8">
+
+	<link rel="stylesheet" href="style.css">
+    
+    <!-- Links to get the font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <!-- End of font-links -->
+    
+</head>
+
+<body>
+    <script src="main.js"></script>
+
+    <header>
+        <h1> Kanban Board</h1>
+    </header>
+
+    <div class="column-wrapper">
+
+        <div id="todo" class="list" style="background-color: rgba(255, 0, 0, 0.89)" >
+            <div class="list-title">
+                <h2> To-Do </h2>
+            </div>
+
+            <div id="todo-list" class="item-list">
+    
+            </div>
+
+            <div class="add-button">
+                <button id="add-button" class="add">+</button>
+                <!-- <input id="charMany" type="text"/> -->
+            </div>
+
+        </div>
+        
+
+        <div id="inprogress" class="list" style="background-color: rgba(255, 166, 0, 0.89)">
+
+            <div class="list-title">
+                <h2> In-Progress </h2>
+            </div>
+
+            <div id="inprogress-list" class="item-list">
+    
+            </div>
+
+        </div>
+
+        <div id="done" class="list" style="background-color: rgba(0, 128, 0, 0.89)">
+
+            <div class="list-title">
+                <h2> Done </h2>
+            </div>
+
+            <div id="done-list" class="item-list" style="justify-content: space-evenly;"  >
+    
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
